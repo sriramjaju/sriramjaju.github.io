@@ -1,5 +1,8 @@
-
-### DAND P2 Submission
+---
+layout: post
+published: false
+title: Exploratory Data Analysis of Titanic Dataset
+---
 As part of DAND P2 Project, I will be doing Exploratory Data analysis on Titanic Dataset.
 
 Let's start with importing required libraries.
@@ -7,12 +10,9 @@ Let's start with importing required libraries.
 
 ```python
 %matplotlib inline
-
 import numpy as np
 import pandas as pd
-
 import matplotlib.pyplot as plt
-
 import seaborn as sns
 ```
 
@@ -20,11 +20,7 @@ Now I will read titanic dataset using Pandas read_csv method and explore first 5
 
 
 ```python
-titanic_df = pd.read_csv('titanic-data.csv')
-```
-
-
-```python
+titanic_df = pd.read_csv(> titanic-data.csv)
 titanic_df.head()
 ```
 
