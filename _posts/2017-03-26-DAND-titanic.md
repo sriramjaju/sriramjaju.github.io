@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Exploratory Data Analysis of Titanic Dataset
 ---
 As part of DAND P2 Project, I will be doing Exploratory Data analysis on Titanic Dataset.
