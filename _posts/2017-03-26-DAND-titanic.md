@@ -640,14 +640,8 @@ sns.plt.title('Count of Passengers who survived')
 ```
 
 
+![output_18_1.png]({{site.baseurl}}/img/output_18_1.png)
 
-
-    <matplotlib.text.Text at 0x981c208>
-
-
-
-
-![png](output_18_1.png)
 
 
 Let's see agewise distribution of the passenger aboard the Titanic.
@@ -661,15 +655,8 @@ sns.plt.ylabel('Count')
 sns.plt.title('Agewise distribution of the passenger aboard the Titanic')
 ```
 
+![output_20_1.png]({{site.baseurl}}/img/output_20_1.png)
 
-
-
-    <matplotlib.text.Text at 0x9b1def0>
-
-
-
-
-![png](output_20_1.png)
 
 
 Many passensgers are of age 15-40 yrs. But again this is not complete dataset.
@@ -688,14 +675,8 @@ sns.plt.legend()
 ```
 
 
+![output_22_1.png]({{site.baseurl}}/img/output_22_1.png)
 
-
-    <matplotlib.legend.Legend at 0x9607128>
-
-
-
-
-![png](output_22_1.png)
 
 
 There were many male passengers aboared compared to female passengers.
@@ -714,14 +695,8 @@ sns.plt.legend()
 ```
 
 
+![output_24_1.png]({{site.baseurl}}/img/output_24_1.png)
 
-
-    <matplotlib.legend.Legend at 0xb791a58>
-
-
-
-
-![png](output_24_1.png)
 
 
 From above visualization, it is evident that Women had better survival chance. One can do an Hypothesis test to verify this.
@@ -1239,14 +1214,8 @@ sns.plt.suptitle('Class wise segregation of passengers', fontsize=16)
 ```
 
 
+![output_33_1.png]({{site.baseurl}}/img/output_33_1.png)
 
-
-    <matplotlib.text.Text at 0x9a07f28>
-
-
-
-
-![png](output_33_1.png)
 
 
 Above visualization compares passengers who survived the tragedy and who did not, across three classes.
@@ -1261,13 +1230,8 @@ sns.plt.suptitle('Class and gender wise segregation of passengers', fontsize=16)
 
 
 
+![output_35_1.png]({{site.baseurl}}/img/output_35_1.png)
 
-    <matplotlib.text.Text at 0xb667978>
-
-
-
-
-![png](output_35_1.png)
 
 
 From above visualization we can see that class played important for Survival of Male and Female passengers.
@@ -1285,14 +1249,8 @@ sns.plt.title('Scatterplot of passengers w.r.t Fare and Age')
 ```
 
 
+![output_37_1.png]({{site.baseurl}}/img/output_37_1.png)
 
-
-    <matplotlib.text.Text at 0xc282e80>
-
-
-
-
-![png](output_37_1.png)
 
 
 I can segregate the passengers according to thier Port of Embarkation and then compare Fare v/s Age across 3 classes.
@@ -1306,13 +1264,8 @@ sns.plt.suptitle('Scatterplot of passengers w.r.t Fare and Age for diff. ports',
 
 
 
+![output_39_1.png]({{site.baseurl}}/img/output_39_1.png)
 
-    <matplotlib.text.Text at 0xc300e80>
-
-
-
-
-![png](output_39_1.png)
 
 
 From above visualization we can see that Fare is quite uniform for Class 2 and 3 across all ages. Fare varies for Class 1 across all ages, but we cannot conclude why it varies. We need more attributes to our data points to drill down to the reason for variation. We can also observe that lot of passengers embarked from port of Southampton.
