@@ -112,7 +112,7 @@ titanic_df.head()
 
 ### Data Description
 
-(from https://www.kaggle.com/c/titanic)
+(from [https://www.kaggle.com/c/titanic](https://www.kaggle.com/c/titanic))
 
 1. survival: Survival (0 = No; 1 = Yes)
 2. pclass: Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
@@ -1241,24 +1241,11 @@ There were some limitation for this dataset such as missing values for some attr
 
 #### Reference:
 Websites:
-* https://www.kaggle.com
-* https://chrisalbon.com
-* http://seaborn.pydata.org/tutorial.html
+* [https://www.kaggle.com](https://www.kaggle.com)
+* [https://chrisalbon.com](https://chrisalbon.com)
+* [http://seaborn.pydata.org/tutorial.html](http://seaborn.pydata.org/tutorial.html)
 
 Books:
 Python Data Science Handbook, By - Jake VanderPlas
 
 
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
