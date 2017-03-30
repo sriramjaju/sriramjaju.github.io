@@ -90,7 +90,7 @@ url-pretty: "Sriramjaju.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "shriramjaju"
+#disqus: "shriramjaju"
 ---
 layout: default
 comments: true
