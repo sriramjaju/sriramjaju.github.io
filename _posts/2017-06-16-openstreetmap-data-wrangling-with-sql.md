@@ -14,10 +14,12 @@ http://wiki.openstreetmap.org/wiki/OSM_XML
 
 Some highlights of the OSM XML format relevent to this project are:
 
--OSM XML is list of instances of data primatives (nodes, ways, and relations) found within a given bounds
--nodes represent dimensionless points on the map
--ways contain node references to form either a polyline or polygon on the map
--nodes and ways both contain children tag elements that represent key value pairs of descriptive information about a given node or way
+- OSM XML is list of instances of data primatives (nodes, ways, and relations) found within a given bounds
+- nodes represent dimensionless points on the map
+- ways contain node references to form either a polyline or polygon on the map
+- nodes and ways both contain children tag elements that represent key value pairs of descriptive information about a given node or way
+
+
 
 As with any user generated content, there is likely going to be dirty data. In this project I'll attempt to do some auditing, cleaning, and data summarizing tasks with Python and SQL.
 
@@ -414,5 +416,3 @@ Biggest challenge is keeping maps up-to-date, since just like Wikepedia, Openstr
 
 * For most of the Programming I took help of https://Stackoverflow.com
 * For SQL I referred https://www.w3schools.com/sql/default.asp
-
-
