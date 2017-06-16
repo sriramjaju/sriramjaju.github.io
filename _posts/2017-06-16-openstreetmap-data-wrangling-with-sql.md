@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: OpenStreetMap Data Wrangling with SQL
 ---
 
