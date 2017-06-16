@@ -4,9 +4,22 @@ published: true
 title: OpenStreetMap Data Wrangling with SQL
 ---
 
-## OpenStreetMap Data Wrangling with SQL
+OpenStreetMap is a community built free editable map of the world, inspired by the success of Wikipedia where crowdsourced data is open and free from proprietary restricted use. We see some examples of its use by Craigslist and Foursquare, as an open source alternative to Google Maps.
 
-### Shriram Jaju
+http://www.openstreetmap.org
+
+Users can map things such as polylines of roads, draw polygons of buildings or areas of interest, or insert nodes for landmarks. These map elements can be further tagged with details such as street addresses or amenity type. Map data is stored in an XML format. More details about the OSM XML can be found here:
+
+http://wiki.openstreetmap.org/wiki/OSM_XML
+
+Some highlights of the OSM XML format relevent to this project are:
+
+-OSM XML is list of instances of data primatives (nodes, ways, and relations) found within a given bounds
+-nodes represent dimensionless points on the map
+-ways contain node references to form either a polyline or polygon on the map
+-nodes and ways both contain children tag elements that represent key value pairs of descriptive information about a given node or way
+
+As with any user generated content, there is likely going to be dirty data. In this project I'll attempt to do some auditing, cleaning, and data summarizing tasks with Python and SQL.
 
 #### Map Area: Boston, MA, USA
 
@@ -403,6 +416,3 @@ Biggest challenge is keeping maps up-to-date, since just like Wikepedia, Openstr
 * For SQL I referred https://www.w3schools.com/sql/default.asp
 
 
-```python
-
-```
