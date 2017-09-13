@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: Exploratory Data Analysis of Red Wine Dataset by Shriram Jaju
 ---
 Exploratory Data Analysis of Red Wine Dataset by Shriram Jaju
