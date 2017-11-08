@@ -3,8 +3,7 @@ layout: post
 published: false
 title: Exploratory Data Analysis of Red Wine Dataset
 ---
-Exploratory Data Analysis of Red Wine Dataset
-=============================================================
+
 
 In this analysis I will be exploring Red Wine dataset.
 
