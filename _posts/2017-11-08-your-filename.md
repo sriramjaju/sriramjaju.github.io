@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: Exploratory Data Analysis of Red Wine Dataset
+date: '2017-09-10'
 ---
 
 
