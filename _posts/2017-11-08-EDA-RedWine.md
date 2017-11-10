@@ -131,7 +131,11 @@ Univariate Analysis
 
 There are 1599 observation and 13 attributes in this data set. Except quality variable which is categorical, the variables are numeric.
 
-Other observations include: \* Most of the wine have quality 5 or 6 on the scale of 0-10 \* Most of the wines have pH between 3.2 and 3.4 \* Mean alcohol amount is 10.42% \* Average sugar amount is 2.54 g/dm^3 with the maximum 15.5, which means all of the wine samples are not sweet.
+Other observations include: 
+- Most of the wine have quality 5 or 6 on the scale of 0-10. 
+- Most of the wines have pH between 3.2 and 3.4
+- Mean alcohol amount is 10.42% -
+- Average sugar amount is 2.54 g/dm^3 with the maximum 15.5, which means all of the wine samples are not sweet.
 
 ### What is/are the main feature(s) of interest in your dataset?
 
@@ -139,11 +143,11 @@ The main feature of interest is the quality rating. I will investigate how resid
 
 ### What other features in the dataset do you think will help support your investigation into your feature(s) of interest?
 
-density, chlorides, alcohol
+Density, Chlorides, Alcohol.
 
 ### Did you create any new variables from existing variables in the dataset?
 
-Not yet, but I will create a new variable for ratings depending on the quality if wine.
+I will be creating a new variable for ratings depending on the quality if wine.
 
 ### Of the features you investigated, were there any unusual distributions?
 Did you perform any operations on the data to tidy, adjust, or change the form
