@@ -8,6 +8,8 @@ date: '2017-09-10'
 
 In this analysis I will be exploring Red Wine dataset.
 
+Code for below analysis is available in Github.
+
 This dataset is public available for research. The details are described in \[Cortez et al., 2009\]. Please include this citation if you plan to use this database:
 
 P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
@@ -124,6 +126,7 @@ The alcohol distribution is right-skewed. It will be interesting to see whether 
 
 Taking log transformation of chorides, total.sulfur.dioxide, nresidual.sugar, free.sulfur.dioxide makes their distribution normal.
 
+
 Univariate Analysis
 ===================
 
@@ -214,14 +217,11 @@ From the above plots we can see that that quality of the wine and volatile.acidi
 Bivariate Analysis
 ==================
 
-### Talk about some of the relationships you observed in this part of the
-investigation. How did the feature(s) of interest vary with other features in
-the dataset?
+### Talk about some of the relationships you observed in this part of the investigation. How did the feature(s) of interest vary with other features in the dataset?
 
 I observed that alcohol, sulphates, and citric.acid are positively correlated to quality of wine and volatile.acidity, total.sulphur.dioxide and density are inversely correlated to quality of the wine.
 
-### Did you observe any interesting relationships between the other features
-(not the main feature(s) of interest)?
+### Did you observe any interesting relationships between the other features (not the main feature(s) of interest)?
 
 I noticed that density and alcohol had a stronger negative correlation than others and I saw that lower the density, higher the alcohol %.
 
@@ -234,13 +234,11 @@ Multivariate Plots Section
 
 Levels of Wine quality:
 
-    ## 
     ##   3   4   5   6   7   8 
     ##  10  53 681 638 199  18
 
 As we can see that there are 6 levels on quality in our dataset, I will create an new variable called 'ratings' with levels 'good' for quality 7 and 8, 'average' for quality of 5 and 6 and 'bad' for quality of 3 and 4.
 
-    ## 
     ##     bad average    good 
     ##      63    1319     217
 
@@ -272,12 +270,11 @@ As mentioned above, the median volatile acidity was 0.68 for bad wines, 0.54 for
 
 And I can see that lower the pH, higher the acidity.
 
+
 Multivariate Analysis
 =====================
 
-### Talk about some of the relationships you observed in this part of the
-investigation. Were there features that strengthened each other in terms of
-looking at your feature(s) of interest?
+### Talk about some of the relationships you observed in this part of the investigation. Were there features that strengthened each other in terms of looking at your feature(s) of interest?
 
 I observed that higher quantity of sulphates and citric.acid makes a good wine but with lower volatile acidity of course. Lower density and higher alcohol content makes a good wine.
 
@@ -287,12 +284,12 @@ A well balanced combination of pH and fixed.acidity makes good wine.
 
 ------------------------------------------------------------------------
 
+
 Final Plots and Summary
 =======================
 
 ### Plot One
 
-    ## Warning: Ignoring unknown parameters: binwidth, bins, pad
 
 ![Plot_One-1.png]({{site.baseurl}}/img/figure-markdown_github/Plot_One-1.png)
 
@@ -317,6 +314,7 @@ From the above plot I can confirm that Quality of the Red wine is directly propo
 In the above I see that citric acid and sulphates have positive effect on the quality of the Red wine and it shows how the right combination of two variables can produce a higher quality wine. Whereas higher pH can make wine bad, here it is important to remember that the lower pH values mean more acidic, although one would probably guess that the more fixed acidity there is, the more acidic the wine is. Acids are major wine constituents and contribute greatly to its taste. In fact, acids impart the sourness or tartness that is a fundamental feature in wine taste
 
 ------------------------------------------------------------------------
+
 
 Reflection
 ==========
