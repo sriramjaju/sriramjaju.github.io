@@ -18,7 +18,6 @@ Haar cascades for OpenCV can be downloaded from [here](https://github.com/opencv
 
 import numpy as np
 import matplotlib.pyplot as plt
-#import math
 import cv2                     # OpenCV library for computer vision
 ```
 
@@ -91,7 +90,8 @@ ax1.imshow(image_with_detections)
 
     Number of faces detected: 1
     Number of eyes detected: 2
-   ![Image with Face and Eye Detection]({{site.baseurl}}/img/output_2_2.png)
+
+![Image with Face and Eye Detection]({{site.baseurl}}/img/output_2_2.png)
 
 
 ### Face and Eye Detection for web-cam feed
