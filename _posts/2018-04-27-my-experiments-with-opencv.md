@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: My Experiments with OpenCV
 ---
 ## My Experiments with OpenCV
