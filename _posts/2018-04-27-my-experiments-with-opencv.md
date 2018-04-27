@@ -1,9 +1,10 @@
 ---
 layout: post
 published: true
-title: My Experiments with OpenCV
+title: My Experiments with OpenCV - Part1
+date: '2018-04-27'
 ---
-## My Experiments with OpenCV
+
 
 ### Face and Eye Recognizer using Haar cascades
 
