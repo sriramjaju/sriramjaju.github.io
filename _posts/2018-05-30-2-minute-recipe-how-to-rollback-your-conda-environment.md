@@ -11,7 +11,7 @@ I was about to delete my whole environment and recreate it again from YAML file(
 
 ```bash
 List the history of each change to the current environment     conda list --revisions
-Restore environment to a previous revision                       conda install --revision 2
+Restore environment to a previous revision                     conda install --revision 2
 ```
 
 The best way to explain is by a quick example. If you run conda list --revisions, you’ll get an output like this:
